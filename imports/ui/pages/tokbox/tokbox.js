@@ -12,6 +12,7 @@ export class TokBoxChat extends React.Component {
     this.state = {
       token: false,
     };
+  }
   startSession(){
     test
     const sucessful = (response) => this.setState({token: response}); // store the token in state
